@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.4"
+  version: "0.1.5"
 
 package:
   name: sgp4jax
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sgp4jax/sgp4jax-${{ version }}.tar.gz
-  sha256: 6fe541e0fb9b20f2e0a5f802f74479d908257ecf118857b526e31472fcda3172
+  sha256: 01a9c87e84a75edc5381f33704654adf10129cc15027b54ff53226e341c78483
 
 build:
   number: 0
@@ -39,7 +39,7 @@ tests:
 about:
   summary: JAX-compatible SGP4 satellite propagation
   license: GPL-3.0-only
-  license_file: 
+  license_file:
     - LICENSE
     - THIRD_PARTY_NOTICES
   homepage: https://pypi.org/project/sgp4jax/
