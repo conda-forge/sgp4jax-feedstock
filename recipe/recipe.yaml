@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.5"
+  version: "0.1.6"
 
 package:
   name: sgp4jax
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sgp4jax/sgp4jax-${{ version }}.tar.gz
-  sha256: 01a9c87e84a75edc5381f33704654adf10129cc15027b54ff53226e341c78483
+  sha256: 50fd31c167a4263d2e715f6b045acf682017fb785f0aeef0c253335854b52c9a
 
 build:
   number: 0
